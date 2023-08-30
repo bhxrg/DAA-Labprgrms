@@ -1,4 +1,4 @@
-0//C Program to Perform Merge Sort using Recursion and Functions/
+//C Program to Perform Merge Sort using Recursion and Functions/
 
 #include <stdio.h>
 #include <stdlib.h>
