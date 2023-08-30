@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-voidread_adjacency_matrix(int a[10][10],int n)
+void read_adjacency_matrix(int a[10][10],int n)
 {
 int i,j;
 for(i=0;i<n;i++)
@@ -24,7 +24,7 @@ sum+=a[i][j];
 indegree[j]=sum;
 }
 }
-voidtopological_order(int a[10][10],int n)
+void topological_order(int a[10][10],int n)
 {
 int u,v,i,s[10],t[10],top=-1,k=0,indegree[10];
 find_indegree(a,n,indegree);
@@ -60,7 +60,6 @@ printf("%d ",t[i]);
 void main()
 {
 int a[10][10],n;
-clrscr();
 printf("\n Enter the no. of vertices in the matrix : ");
 scanf("%d",&n);
 printf("\n Enter the adjacency matrix : \n ");
